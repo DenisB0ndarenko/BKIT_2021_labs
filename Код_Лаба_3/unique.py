@@ -13,7 +13,7 @@ class Unique(object):
             try:
                 self.ignore_case = kwargs['ignore_case']
             except KeyError as k:
-                print('Имя именованного итератора должно быть {}'.format(k))
+                print('Имя именованного параметра должно быть {}'.format(k))
                 raise
 
     def __next__(self):
